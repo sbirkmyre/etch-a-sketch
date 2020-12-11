@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+#panel {
+    width: 480px;
+    height: 480px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: inset 0 0 10px;
+    background-color: #c4c4c4;
+}
+
+.etch-toy {
+    width: 720px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff0000;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px;
+}
+
+    .etch-toy p {
+        margin: 20px 0;
+        font-family: 'Yellowtail', cursive;
+        font-size: 50px;
+    }
+
+    .etch-toy .controls  {
+        width: 100%;
+        padding: 25px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .etch-toy .control {
+        height: 100px;
+        width: 100px;
+        margin: 0 25px;
+        background-color: white;
+        border: solid 10px #e4e4e4;
+        border-radius: 50%;
+        box-shadow: 0px 5px 10px;
+    }
